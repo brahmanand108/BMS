@@ -3,10 +3,10 @@ import pandas as pd
 import logging
 import regex as rg
 
-import add_order
-import view_order
-import update_order
-import save_to_excel
+import add_odr
+import view_odr
+import update_odr
+import save_excel
 
 """
 pip install pandas
@@ -39,8 +39,10 @@ def main():
 
 
 
-if __name__ == __main__ :
+if __name__ ==" __main__" :
     try:
         main()
     except Exception as ex:
-        ????
+        print("there is an error : \n", ex)
+    else:
+        print("Code sucessful")

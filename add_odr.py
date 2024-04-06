@@ -7,7 +7,7 @@
 def add_order():
     print ("Enter your name")
     name = str (input())
-    print (" Enter the comodity reqired 1 samosa 2 pastery 3 jalebi 4 xyz   ")
+    print (" Enter the comodity reqired 1 samosa \n 2 pastery \n 3 jalebi \n 4 xyz   ")
     order_type = int(input())
     if (order_type >= 1 and order_type <= 4) :
     
@@ -16,9 +16,9 @@ def add_order():
         elif order_type == 2 :
             order_oject = "pastery"
         elif order_type == 3:
-            order_oject = jalebi
+            order_oject = "jalebi"
         else:
-            order_oject = xyz
+            order_oject = "xyz"
     else:
         print("Enter the correct choice")
         

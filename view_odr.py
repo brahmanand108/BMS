@@ -7,7 +7,7 @@
 
 
 def view_order():  
-     print("Select to enter 1 order id \n 2 Customer name \n 3 Date")
+    print("Select to enter 1 order id \n 2 Customer name \n 3 Date")
     update_input = int (input ())
     if update_input >= 1 and update_input <= 3 : 
         if update_input == 1 :
